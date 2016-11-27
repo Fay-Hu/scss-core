@@ -16,6 +16,7 @@
     "node_modules"
   ],
   "dependencies": {
-    "animatewithsass": "3.2.2"
+    "animatewithsass": "3.2.2",
+    "normalize.scss":"https://github.com/kristerkari/normalize.scss.git#master"
   }
 }

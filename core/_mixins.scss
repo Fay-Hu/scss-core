@@ -276,20 +276,6 @@
 }
 
 
-// %
-// 只定义了%，所以只能通过@extend来调用
-//-----------------------------------------------------
-
-//为高级浏览器准备的box-sizing盒子模型，ie8+
-%box-sizing-border{
-  @include box-sizing;
-}
-
-// 普通all transition特效
-%all-transition{
-  @include transition;
-}
-
 // ie6/7 haslayout
 %zoom{
   @if $lte7 {
@@ -425,8 +411,8 @@
   @extend %simple-form-basic;
   height: 18px;
   
-  @include transition(border linear 0.2s, box-shadow linear 0.2s);
-  @include box-shadow(inset 0 1px 3px rgba(0, 0, 0, 0.1));
+  //@include transition(border linear 0.2s, box-shadow linear 0.2s);
+  //@include box-shadow(inset 0 1px 3px rgba(0, 0, 0, 0.1));
 
   &:focus{
     border-color: rgba($borderColorFocus, 0.8);
