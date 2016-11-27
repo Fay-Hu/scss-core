@@ -14,5 +14,8 @@
   ],
   "ignore": [
     "node_modules"
-  ]
+  ],
+  "dependencies": {
+    "animate.scss": "3.2.1"
+  }
 }
