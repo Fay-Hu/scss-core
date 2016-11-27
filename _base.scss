@@ -1,12 +1,13 @@
 @import 'core/_variables';
-@import 'core/mixins';
 
+
+@import '../normalize-scss/sass/normalize'; 
 @if $dependency-normalize{
-   @import '../normalize-scss/sass/normalize'; 
+    @include normalize(); 
 }
 
-@import '_reset';
+//$dependency-animate:'./../animate-scss/animate.scss' !default;
+//@import $dependency-animate;
 
-@if $dependency-animate{
-    @import '../animate-scss/animate';
-}
+@import 'core/mixins';
+@import 'core/_reset';
