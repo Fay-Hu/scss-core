@@ -10,8 +10,8 @@ $lte7:                  true !default; //是否兼容ie6-7
 $filter:                false !default; //是否为ie6-8开启css3滤镜兼容，常用于渐变背景 
 $printStyleSwitch:      false !default; //是否开启打印样式
 
-$dependency-normalize:        false !default; //是否导入重置样式：normalize.css
-$dependency-animate:          false !default; //是否导入动画样式：animate.css
+$dependency-normalize:        true !default; //是否导入重置样式：normalize.css
+$dependency-animate:          true !default; //是否导入动画样式：animate.css
 
 // font相关
 //-----------------------------------------------------	
