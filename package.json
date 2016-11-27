@@ -1,0 +1,26 @@
+{
+  "name": "scss-core",
+  "version": "0.0.1",
+  "description": "scss-core",
+  "main": "_base.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fay-Hu/scss-core.git"
+  },
+  "keywords": [
+    "scss",
+    "web"
+  ],
+  "author": "Fay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fay-Hu/scss-core/issues"
+  },
+  "homepage": "https://github.com/Fay-Hu/scss-core#readme",
+  "devDependencies": {
+    "normalize.scss": "git+https://github.com/kristerkari/normalize.scss.git#master"
+  }
+}
