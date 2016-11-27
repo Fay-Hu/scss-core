@@ -1,6 +1,6 @@
 {
   "name": "scss-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "scss-core",
   "main": "_base.scss",
   "scripts": {
@@ -20,7 +20,8 @@
     "url": "https://github.com/Fay-Hu/scss-core/issues"
   },
   "homepage": "https://github.com/Fay-Hu/scss-core#readme",
-  "devDependencies": {
-    "normalize.scss": "git+https://github.com/kristerkari/normalize.scss.git#master"
+  "dependencies": {
+    "normalize-scss": "~6.0.0",
+    "animate-scss": "~3.2.1"
   }
 }
